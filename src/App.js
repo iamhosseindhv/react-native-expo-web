@@ -1,28 +1,20 @@
-import React, { Component } from 'react';
-import logo from './logo.svg';
-import './App.css';
+import React from 'react';
+import { View, Text, StyleSheet } from 'react-native';
+import Title from './components/Title';
 
-class App extends Component {
-  render() {
-    return (
-      <div className="App">
-        <header className="App-header">
-          <img src={logo} className="App-logo" alt="logo" />
-          <p>
-            Edit <code>src/App.js</code> and save to reload.
-          </p>
-          <a
-            className="App-link"
-            href="https://reactjs.org"
-            target="_blank"
-            rel="noopener noreferrer"
-          >
-            Learn React
-          </a>
-        </header>
-      </div>
-    );
-  }
-}
+const styles = StyleSheet.create({
+    wrapper: {
+        flex: 1,
+        padding: 15,
+        justifyContent: 'center',
+        alignItems: 'center',
+        backgroundColor: 'green',
+    },
+});
 
-export default App;
+export default () => (
+    <View style={styles.wrapper}>
+        <Text>The application has started succesfully!</Text>
+        <Title />
+    </View>
+);

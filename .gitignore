@@ -5,6 +5,14 @@
 /.pnp
 .pnp.js
 
+node_modules/**/*
+.expo/*
+npm-debug.*
+*.jks
+*.p12
+*.key
+*.mobileprovision
+
 # testing
 /coverage
 

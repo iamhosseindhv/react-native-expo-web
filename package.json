@@ -1,17 +1,33 @@
 {
-  "name": "react-app",
+  "name": "expo-react-native-web-boilerplate",
+  "description": "Expo and react-native-web all-in-one project",
   "version": "0.1.0",
   "private": true,
   "dependencies": {
-    "react": "^16.6.3",
-    "react-dom": "^16.6.3",
+    "expo": "31.0.2",
+    "react": "16.6.3",
+    "react-dom": "16.6.3",
+    "react-art": "16.5.2",
+    "react-native": "0.57.7",
+    "react-native-web": "0.9.3",
     "react-scripts": "2.1.1"
   },
   "scripts": {
-    "start": "react-scripts start",
-    "build": "react-scripts build",
-    "test": "react-scripts test",
-    "eject": "react-scripts eject"
+    "start": "react-app-rewired start",
+    "build": "react-app-rewired build",
+    "start.native": "expo start",
+    "start.android": "expo start --android",
+    "start.ios": "expo start --ios",
+    "build.android": "expo build:android",
+    "build.ios": "expo build:ios",
+    "publish.native": "expo publish"
+  },
+  "devDependencies": {
+    "babel-preset-expo": "5.0.0",
+    "eslint-config-airbnb": "17.1.0",
+    "eslint-config-react-app": "3.0.5",
+    "eslint-plugin-react-native": "3.5.0",
+    "react-app-rewired": "1.6.2"
   },
   "eslintConfig": {
     "extends": "react-app"

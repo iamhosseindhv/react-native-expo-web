@@ -1,0 +1,34 @@
+{
+  "expo": {
+    "name": "expo-react-native-web-boilerplate",
+    "description": "Expo and react-native-web all-in-one project",
+    "slug": "native-app",
+    "privacy": "public",
+    "sdkVersion": "31.0.0",
+    "platforms": [
+      "ios",
+      "android"
+    ],
+    "version": "1.0.0",
+    "orientation": "portrait",
+    "icon": "./public/native/icon.png",
+    "splash": {
+      "image": "./public/native/splash.png",
+      "resizeMode": "contain",
+      "backgroundColor": "#ffffff"
+    },
+    "updates": {
+      "fallbackToCacheTimeout": 0
+    },
+    "assetBundlePatterns": [
+      "**/*"
+    ],
+    "ios": {
+      "supportsTablet": true,
+      "bundleIdentifier": "com.mycompany.mynativeapp"
+    },
+    "android": {
+      "package": "com.mycompany.mynativeapp"
+    }
+  }
+}
