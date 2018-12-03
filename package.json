@@ -1,8 +1,16 @@
 {
-  "name": "expo-react-native-web-boilerplate",
-  "description": "Expo and react-native-web all-in-one project",
+  "name": "react-native-expo-web",
+  "description": "All-in-one expo and react-native-web project",
   "version": "0.1.0",
-  "private": true,
+  "license": "MIT",
+  "author": {
+    "name": "Hossein Dehnokhalaji",
+    "email": "hossein.dehnavi98@yahoo.com"
+  },
+  "repository": {
+    "url": "git+https://github.com/iamhosseindhv/react-native-expo-web.git",
+    "type": "git"
+  },
   "dependencies": {
     "expo": "31.0.2",
     "react": "16.6.3",
@@ -37,5 +45,22 @@
     "not dead",
     "not ie <= 11",
     "not op_mini all"
+  ],
+  "bugs": {
+    "url": "https://github.com/iamhosseindhv/react-native-expo-web/issues"
+  },
+  "contributors": [
+    "Hossein Dehnokhalaji (https://www.iamhosseindhv.com/)"
+  ],
+  "keywords": [
+    "react",
+    "reactjs",
+    "react-native",
+    "react-native-web",
+    "expo",
+    "ios",
+    "android",
+    "boilderplate",
+    "template"
   ]
 }
