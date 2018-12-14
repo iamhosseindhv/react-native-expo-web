@@ -1,4 +1,4 @@
-# RN expo-web
+# Rract-Native expo-web
 
 All-in-one project boilerplate built with [expo](https://expo.io/) and [react-native-web](https://github.com/necolas/react-native-web), inspired from **@thoughdeveloper**.
 
